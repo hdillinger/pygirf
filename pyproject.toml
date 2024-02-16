@@ -24,6 +24,8 @@ classifiers = [
 dependencies = [
     "numpy>=1.23,<2.0",
     "ismrmrd",
+    "dataclasses",
+    "pint",
     "twixtools@git+https://github.com/pehses/twixtools",
 ]
 
